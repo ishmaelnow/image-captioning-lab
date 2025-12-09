@@ -2,4 +2,5 @@ openai>=1.35.0
 mistralai>=1.2.0
 python-dotenv>=1.0.1
 Pillow>=10.0.0
-# ❌ Do NOT list gradio here; HF installs it based on sdk_version in README
+huggingface_hub>=0.24.0
+# IMPORTANT: Do NOT list gradio here – HF installs it from README sdk_version
